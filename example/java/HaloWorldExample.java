@@ -1,3 +1,5 @@
+package example.java;
+
 class HaloWorldExample {
 
     public static void main(String[] args){

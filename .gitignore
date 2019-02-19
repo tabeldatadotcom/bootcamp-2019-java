@@ -1,6 +1,7 @@
 *.class
 bin/
 target/
+out/
 
 ## systemfiles
 .DS_Store
