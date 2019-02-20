@@ -6,7 +6,7 @@ public class PerulanganFor{
         Integer i = 0;
 
         // menampilkan nilai index ke 0 s/d 10
-        for(i = 0; i >11; i++){
+        for(i = 0; i < 11; i++){
             System.out.println("index ke "+ i);
         }
 
