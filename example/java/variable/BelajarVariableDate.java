@@ -20,4 +20,4 @@ public class BelajarVariableDate{
         System.out.println("taggal saat ini local: "+ text);
         System.out.println("watu saat ini local : "+ timeLocal);
     }
-}
+}   
