@@ -1,5 +1,9 @@
 package example.java.module;
 
+import java.math.BigDecimal;
+
+import example.java.module.tabungan.SetoranTunai;
+
 public class MethodAndProcedure {
 
     public Integer perkalianBilangan(Integer bil1, Integer bil2){
@@ -40,6 +44,10 @@ public class MethodAndProcedure {
 
         Dosen dosen = new Dosen();
         System.out.println("nama dosen: "+ dosen.namaDosen());
+
+        SetoranTunai tabunganSetoranTunai = new SetoranTunai();
+        BigDecimal setoranTunai = tabunganSetoranTunai.setor(new BigDecimal(1000));
+        System.out.println("saldo tabungan plus deposito : "+ setoranTunai);
     }
 
     public static void perkalianStatic(){
