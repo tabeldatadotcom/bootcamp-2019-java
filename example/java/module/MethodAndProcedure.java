@@ -18,12 +18,21 @@ public class MethodAndProcedure {
         System.out.println("ini method perbagian");
     } 
 
+    public String namaLengkap(String namaDepan, String namaBelakang){
+        StringBuilder value = new StringBuilder()
+            .append(namaDepan)
+            .append(" ")
+            .append(namaBelakang);
+        return value.toString();
+    }
+
     public static void main(String[] args){
         MethodAndProcedure obj = new MethodAndProcedure();
         obj.perkalian("Ini dari method perkalian yang diisi dengan parameter");    
 
        System.out.println("hasil perkalian dari 2 * 6 = "+ obj.perkalianBilangan(2, 6));
        System.out.println(obj.pembagianBilangan());
+       System.out.println("tampilkan nama lengkap : "+ obj.namaLengkap("Dimas", "Maryanto"));
 
     //    System.out.println(args[0]+" " + args[1]);
     }
