@@ -35,6 +35,11 @@ public class MethodAndProcedure {
        System.out.println("tampilkan nama lengkap : "+ obj.namaLengkap("Dimas", "Maryanto"));
 
     //    System.out.println(args[0]+" " + args[1]);
+        Mahasiswa mhs = new Mahasiswa();
+        System.out.println("nama: "+ mhs.namaSiswa()+ " kelas: "+ mhs.kelas());
+
+        Dosen dosen = new Dosen();
+        System.out.println("nama dosen: "+ dosen.namaDosen());
     }
 
     public static void perkalianStatic(){
