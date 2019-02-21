@@ -2,19 +2,16 @@ package example.java.module;
 
 public class MethodAndProcedure {
 
-    public Integer perkalianBilangan(){
-        pembagianBilangan();
-        perkalianStatic();
-        return 2*4;
+    public Integer perkalianBilangan(Integer bil1, Integer bil2){
+        return bil1*bil2;
     }
 
     public String pembagianBilangan(){
         return "Halo ini dari procedure";
     }
 
-    public void perkalian(){
-        System.out.println("ini method perkalian");
-        pembagian();
+    public void perkalian(String value){
+        System.out.println(value);
     } 
 
     public void pembagian(){
@@ -23,10 +20,12 @@ public class MethodAndProcedure {
 
     public static void main(String[] args){
         MethodAndProcedure obj = new MethodAndProcedure();
-        obj.perkalian();    
+        obj.perkalian("Ini dari method perkalian yang diisi dengan parameter");    
 
-       System.out.println("hasil perkalian dari 2 * 4 = "+ obj.perkalianBilangan());
+       System.out.println("hasil perkalian dari 2 * 6 = "+ obj.perkalianBilangan(2, 6));
        System.out.println(obj.pembagianBilangan());
+
+    //    System.out.println(args[0]+" " + args[1]);
     }
 
     public static void perkalianStatic(){
