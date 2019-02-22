@@ -15,5 +15,15 @@ public class Mobil implements Mesin{
     public Integer getPort(){
         return port;
     }
+
+    @Override
+    public Integer getSize() {
+        return null;
+    }
+
+    @Override
+    public String getTire() {
+        return null;
+    }
     
 }

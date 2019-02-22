@@ -12,4 +12,14 @@ public class Motor implements Mesin{
         return 4;
     }
 
+    @Override
+    public Integer getSize() {
+        return null;
+    }
+
+    @Override
+    public String getTire() {
+        return null;
+    }
+
 }
