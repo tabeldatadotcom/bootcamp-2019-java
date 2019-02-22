@@ -2,7 +2,7 @@ package example.java.interfaces;
 
 public class MainApplication{
     public static void main(String[] args){
-        Mobil lamborghini = new Mobil();
+        Mobil lamborghini = new Mobil("V8");
         lamborghini.getMesin();
         
         System.out.println("nama lamborghini jumlah cylinder : "+ lamborghini.getCylinder()+ " port : "+ lamborghini.getPort());
